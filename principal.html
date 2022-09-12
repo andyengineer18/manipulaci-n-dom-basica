@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulación de DOM básico</title>
+</head>
+<body>
+    <h1>Modulación del DOM básico</h1>
+    <input id="calculo1" placeholder="Escribe algo aquí">
+     <!-- Conectar input con JS es onchange="" -->
+    <input onchange="console.log('cambio el input')"" id="calculo2" placeholder="Escribe algo aqui">
+    <!-- Conectar button con JS es onclick -->
+    <button id="btnCalcular" onclick="btnOnclick()">Calcular</button>
+    <button id="btnRestar">RESTAR</button>
+    <p id="resultado"></p>
+    <script src="./main.js"></script>
+</body>
+</html>
